@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project_this_YOUR_USERNAME"
+description = "A small example package to learn packaging strategies"
+version = "0.1.0"
+authors = [
+  { name = "YOUR NAME", email = "YOUR_EMAIL@example.com" },
+]
+readme = ".github/README.md"
+requires-python = ">=3.12"
+classifiers = [
+  "Programming Languag :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/project_this_YOUR_USERNAME"
+Issues = "https://github.com/YOUR_USERNAME/project_this_YOUR_USERNAME/issues"
