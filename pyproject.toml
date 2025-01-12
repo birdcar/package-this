@@ -16,6 +16,11 @@ classifiers = [
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
 ]
+dependencies = [
+  "typer",
+]
+[project.optional-dependencies]
+dev = ["ruff", "black", "mypy", "nox", "pytest", "twine", "setuptools", "wheel"]
 
 [project.urls]
 Homepage = "https://github.com/YOUR_USERNAME/project_this_YOUR_USERNAME"
